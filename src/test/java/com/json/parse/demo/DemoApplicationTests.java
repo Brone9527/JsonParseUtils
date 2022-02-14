@@ -14,7 +14,7 @@ class DemoApplicationTests {
     ParseService parseService;
     @Test
     void contextLoads() throws IOException {
-        List<JsonMapBean> jsonMapBeans = parseService.parseFileLine("F:\\JsonParseUtils\\src\\main\\java\\com\\json\\parse\\demo\\subtask1_training_part1.txt");
+        List<JsonMapBean> jsonMapBeans = parseService.parseFileLine("C:\\Users\\Nicholas\\IdeaProjects\\JsonParseUtils\\src\\main\\java\\com\\json\\parse\\demo\\subtask1_training_part1.txt");
         for (JsonMapBean bean:jsonMapBeans){
             System.out.println(bean.toString());
         }

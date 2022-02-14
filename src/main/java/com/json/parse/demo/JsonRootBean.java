@@ -11,6 +11,10 @@ public class JsonRootBean {
 
     private String originalText;
     private List<Entities> entities;
+
+    public static void main(String[] args) {
+        System.out.println("\ufffd\ufffdx\ufffd");
+    }
     
 
 }
